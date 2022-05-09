@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:wordpress-mobile/release-toolkit
-  revision: 220fd77fe8e5c22e9ba0927a1fcdca26c6ac0b32
+  revision: 9b68d6837e0173f2837fba12162cfe5bfd94ac71
   branch: app-size-metrics
   specs:
     fastlane-plugin-wpmreleasetoolkit (4.1.0)
@@ -24,7 +24,7 @@ GEM
   specs:
     CFPropertyList (3.0.5)
       rexml
-    activesupport (5.2.7)
+    activesupport (5.2.8)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
