@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:wordpress-mobile/release-toolkit
-  revision: d512439586631d8554fd9a2da6f3f050b5321783
+  revision: b372e5a0fad96b143c81d8e28dc70a4d1c27ae75
   branch: app-size-metrics
   specs:
     fastlane-plugin-wpmreleasetoolkit (4.1.0)
