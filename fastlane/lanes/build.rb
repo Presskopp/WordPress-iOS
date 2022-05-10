@@ -8,8 +8,8 @@ APPCENTER_OWNER_TYPE = 'organization'
 APP_THINNING_EXPORT_OPTIONS = { thinning: '<thin-for-all-variants>' }
 
 # TODO: Remove this once I'm done with debugging the App Metrics endpoint
-ENV['APPMETRICS_BASE_URL'] = 'localhost'
-ENV['APPMETRICS_API_TOKEN'] = 'tok/1'
+ENV['APPMETRICS_BASE_URL'] = File.join('file://localhost/', BUILD_PRODUCTS_PATH, 'app-size-metrics-payload.json')
+ENV['APPMETRICS_API_TOKEN'] = '-debug-'
 
 # Lanes related to Building and Testing the code
 #
