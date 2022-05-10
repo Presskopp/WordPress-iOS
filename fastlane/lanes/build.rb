@@ -10,6 +10,7 @@ APP_THINNING_EXPORT_OPTIONS = { thinning: '<thin-for-all-variants>' }
 # TODO: Remove this once I'm done with debugging the App Metrics endpoint
 ENV['APPMETRICS_BASE_URL'] = File.join('file://localhost/', BUILD_PRODUCTS_PATH, 'app-size-metrics-payload.json')
 ENV['APPMETRICS_API_TOKEN'] = '-debug-'
+# TODO: Also remove `artifact_paths:` for the `"🛠 WordPress Installable Build"` step in `pipeline.yml` once I'm done debugging
 
 # Lanes related to Building and Testing the code
 #
